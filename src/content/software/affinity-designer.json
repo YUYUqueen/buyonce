@@ -1,0 +1,11 @@
+{
+  "name": "Affinity Designer 2",
+  "description": "Professional vector graphic design software. A one-time purchase alternative to Adobe Illustrator.",
+  "price": "$69.99",
+  "url": "https://affinity.serif.com/designer/",
+  "category": "design",
+  "tags": ["vector", "illustration", "graphic-design", "adobe-alternative"],
+  "platform": ["mac", "windows", "ipad"],
+  "highlight": "No subscription, full Adobe alternative suite",
+  "addedAt": "2026-02-24"
+}

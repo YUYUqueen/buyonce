@@ -1,0 +1,59 @@
+---
+interface Props {
+  name: string;
+  description: string;
+  price: string;
+  url: string;
+  category: string;
+  tags: string[];
+  platform: string[];
+  highlight: string;
+  slug: string;
+}
+
+const { name, description, price, url, category, tags, platform, highlight, slug } = Astro.props;
+
+const platformIcons: Record<string, string> = {
+  mac: '🍎',
+  windows: '🪟',
+  linux: '🐧',
+  ios: '📱',
+  android: '🤖',
+  ipad: '📱',
+  web: '🌐',
+};
+---
+
+<a href={url} target="_blank" rel="noopener" class="block border border-stone-200 rounded-lg p-5 bg-white hover:border-emerald-300 hover:shadow-sm transition-all group">
+  <div class="flex items-start justify-between gap-4">
+    <div class="flex-1 min-w-0">
+      <div class="flex items-center gap-2">
+        <h3 class="font-semibold text-lg group-hover:text-emerald-700 transition-colors">{name}</h3>
+        <span class="text-sm font-mono font-medium text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">{price}</span>
+      </div>
+      <p class="text-stone-600 mt-1 text-sm">{description}</p>
+      {highlight && (
+        <p class="text-emerald-700 text-sm mt-2 font-medium">→ {highlight}</p>
+      )}
+    </div>
+  </div>
+  <div class="flex items-center gap-3 mt-3 text-xs text-stone-500">
+    <div class="flex gap-1">
+      {platform.map((p) => (
+        <span title={p}>{platformIcons[p] || p}</span>
+      ))}
+    </div>
+    <span class="text-stone-300">·</span>
+    <span>{category}</span>
+    {tags.length > 0 && (
+      <>
+        <span class="text-stone-300">·</span>
+        <div class="flex gap-1 flex-wrap">
+          {tags.slice(0, 3).map((tag) => (
+            <span class="bg-stone-100 px-1.5 py-0.5 rounded">{tag}</span>
+          ))}
+        </div>
+      </>
+    )}
+  </div>
+</a>

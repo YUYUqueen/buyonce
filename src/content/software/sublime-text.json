@@ -1,0 +1,11 @@
+{
+  "name": "Sublime Text",
+  "description": "A sophisticated text editor for code, markup and prose. One-time license, free to evaluate indefinitely.",
+  "price": "$99",
+  "url": "https://www.sublimetext.com",
+  "category": "developer-tools",
+  "tags": ["editor", "code", "fast", "lightweight"],
+  "platform": ["mac", "windows", "linux"],
+  "highlight": "Lightning fast, one-time $99 license, 3 devices",
+  "addedAt": "2026-02-24"
+}

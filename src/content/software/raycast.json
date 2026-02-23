@@ -1,0 +1,11 @@
+{
+  "name": "Raycast",
+  "description": "Blazingly fast launcher for macOS that lets you control tools, scripts, and shortcuts from a single interface.",
+  "price": "Free + $8/mo Pro",
+  "url": "https://raycast.com",
+  "category": "productivity",
+  "tags": ["launcher", "automation", "clipboard", "snippets"],
+  "platform": ["mac"],
+  "highlight": "Free tier is generous, extensions ecosystem",
+  "addedAt": "2026-02-24"
+}

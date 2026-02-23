@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import SoftwareCard from '../components/SoftwareCard.astro';
+import CategoryNav from '../components/CategoryNav.astro';
+import { getCollection } from 'astro:content';
+
+const allSoftware = await getCollection('software');
+const sorted = allSoftware.sort((a, b) => (b.data.addedAt || '').localeCompare(a.data.addedAt || ''));
+---
+
+<Base title="Buy Once Software Directory" description="Find quality software you can buy once. No subscriptions, no recurring fees. A curated directory of one-time purchase tools.">
+  <div class="mb-8">
+    <h1 class="text-3xl font-bold tracking-tight mb-2">Buy once, own forever.</h1>
+    <p class="text-stone-600 text-lg">A curated directory of quality software with one-time pricing. No subscriptions.</p>
+  </div>
+
+  <div class="mb-8">
+    <CategoryNav />
+  </div>
+
+  <div class="grid gap-3">
+    {sorted.map((sw) => (
+      <SoftwareCard
+        name={sw.data.name}
+        description={sw.data.description}
+        price={sw.data.price}
+        url={sw.data.url}
+        category={sw.data.category}
+        tags={sw.data.tags}
+        platform={sw.data.platform}
+        highlight={sw.data.highlight}
+        slug={sw.id}
+      />
+    ))}
+  </div>
+
+  <div class="mt-12 text-center border border-dashed border-stone-300 rounded-lg p-8">
+    <p class="text-stone-600 mb-3">Know a great buy-once software?</p>
+    <a href="/submit" class="inline-block bg-stone-900 text-white px-6 py-2 rounded-lg hover:bg-stone-800 transition-colors text-sm font-medium">
+      Submit Software
+    </a>
+  </div>
+</Base>

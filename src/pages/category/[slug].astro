@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import SoftwareCard from '../../components/SoftwareCard.astro';
+import CategoryNav from '../../components/CategoryNav.astro';
+import { getCollection } from 'astro:content';
+import { categories, type CategorySlug } from '../../lib/categories';
+
+export function getStaticPaths() {
+  return Object.keys(categories).map((slug) => ({ params: { slug } }));
+}
+
+const { slug } = Astro.params;
+const category = categories[slug as CategorySlug];
+
+const allSoftware = await getCollection('software');
+const filtered = allSoftware
+  .filter((sw) => sw.data.category === slug)
+  .sort((a, b) => (b.data.addedAt || '').localeCompare(a.data.addedAt || ''));
+---
+
+<Base title={`${category.label} — Buy Once Software`} description={`Buy-once ${category.label.toLowerCase()} software. No subscriptions.`}>
+  <div class="mb-8">
+    <h1 class="text-3xl font-bold tracking-tight mb-2">{category.emoji} {category.label}</h1>
+    <p class="text-stone-600">Buy-once software in this category. No recurring fees.</p>
+  </div>
+
+  <div class="mb-8">
+    <CategoryNav current={slug} />
+  </div>
+
+  {filtered.length > 0 ? (
+    <div class="grid gap-3">
+      {filtered.map((sw) => (
+        <SoftwareCard
+          name={sw.data.name}
+          description={sw.data.description}
+          price={sw.data.price}
+          url={sw.data.url}
+          category={sw.data.category}
+          tags={sw.data.tags}
+          platform={sw.data.platform}
+          highlight={sw.data.highlight}
+          slug={sw.id}
+        />
+      ))}
+    </div>
+  ) : (
+    <div class="text-center py-12 text-stone-500">
+      <p>No software in this category yet.</p>
+      <a href="/submit" class="text-emerald-700 underline mt-2 inline-block">Submit one?</a>
+    </div>
+  )}
+</Base>

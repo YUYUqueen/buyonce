@@ -1,0 +1,11 @@
+{
+  "name": "Obsidian",
+  "description": "A powerful knowledge base that works on local Markdown files. Personal use is free, commercial use is a one-time license.",
+  "price": "$50 (commercial)",
+  "url": "https://obsidian.md",
+  "category": "notes",
+  "tags": ["markdown", "knowledge-base", "local-first", "plugins"],
+  "platform": ["mac", "windows", "linux", "ios", "android"],
+  "highlight": "Local-first, plugin ecosystem, no vendor lock-in",
+  "addedAt": "2026-02-24"
+}

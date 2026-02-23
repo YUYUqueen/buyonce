@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import { categories } from '../lib/categories';
+---
+
+<Base title="Submit Software" description="Submit a buy-once software to be listed on BuyOnce.">
+  <div class="max-w-xl mx-auto">
+    <h1 class="text-3xl font-bold tracking-tight mb-2">Submit Software</h1>
+    <p class="text-stone-600 mb-8">Know a great tool that offers one-time pricing? Share it with the community.</p>
+
+    <form
+      action="https://formspree.io/f/REPLACE_WITH_FORM_ID"
+      method="POST"
+      class="space-y-4"
+    >
+      <div>
+        <label for="name" class="block text-sm font-medium mb-1">Software Name *</label>
+        <input type="text" id="name" name="name" required class="w-full border border-stone-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent" />
+      </div>
+
+      <div>
+        <label for="url" class="block text-sm font-medium mb-1">Website URL *</label>
+        <input type="url" id="url" name="url" required placeholder="https://" class="w-full border border-stone-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent" />
+      </div>
+
+      <div>
+        <label for="price" class="block text-sm font-medium mb-1">Price *</label>
+        <input type="text" id="price" name="price" required placeholder="$49 / Free + $99 Pro" class="w-full border border-stone-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent" />
+      </div>
+
+      <div>
+        <label for="category" class="block text-sm font-medium mb-1">Category *</label>
+        <select id="category" name="category" required class="w-full border border-stone-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent">
+          <option value="">Select a category</option>
+          {Object.entries(categories).map(([slug, { label }]) => (
+            <option value={slug}>{label}</option>
+          ))}
+        </select>
+      </div>
+
+      <div>
+        <label for="description" class="block text-sm font-medium mb-1">Why is it great?</label>
+        <textarea id="description" name="description" rows="3" placeholder="What makes this software worth buying?" class="w-full border border-stone-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"></textarea>
+      </div>
+
+      <div>
+        <label for="email" class="block text-sm font-medium mb-1">Your email (optional)</label>
+        <input type="email" id="email" name="email" placeholder="We'll notify you when it's listed" class="w-full border border-stone-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent" />
+      </div>
+
+      <button type="submit" class="w-full bg-stone-900 text-white py-2.5 rounded-lg hover:bg-stone-800 transition-colors font-medium text-sm">
+        Submit Software
+      </button>
+    </form>
+
+    <p class="text-xs text-stone-500 mt-4 text-center">Submissions are reviewed before listing. We only accept software with one-time or perpetual licensing.</p>
+  </div>
+</Base>

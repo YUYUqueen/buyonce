@@ -1,0 +1,42 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Find quality software you can buy once. No subscriptions, no recurring fees.' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title} | BuyOnce</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body class="bg-stone-50 text-stone-900 min-h-screen">
+    <nav class="border-b border-stone-200 bg-white">
+      <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-xl font-bold tracking-tight">
+          Buy<span class="text-emerald-600">Once</span>
+        </a>
+        <div class="flex gap-4 text-sm">
+          <a href="/submit" class="text-stone-600 hover:text-stone-900">Submit Software</a>
+          <a href="https://twitter.com/YuYuQueen_" target="_blank" class="text-stone-600 hover:text-stone-900">Twitter</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-4 py-8">
+      <slot />
+    </main>
+
+    <footer class="border-t border-stone-200 mt-16">
+      <div class="max-w-5xl mx-auto px-4 py-8 text-center text-sm text-stone-500">
+        <p>Built by <a href="https://twitter.com/YuYuQueen_" class="underline hover:text-stone-700">@YuYuQueen_</a>. Tired of subscriptions? Same.</p>
+      </div>
+    </footer>
+  </body>
+</html>

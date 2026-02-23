@@ -1,0 +1,11 @@
+{
+  "name": "Pixelmator Pro",
+  "description": "Professional image editing app for Mac with machine learning-powered tools. One-time purchase.",
+  "price": "$49.99",
+  "url": "https://www.pixelmator.com/pro/",
+  "category": "design",
+  "tags": ["image-editing", "photo", "mac-native", "ml-powered"],
+  "platform": ["mac", "ipad"],
+  "highlight": "Apple Design Award winner, one-time purchase",
+  "addedAt": "2026-02-24"
+}
