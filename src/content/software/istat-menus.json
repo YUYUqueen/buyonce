@@ -1,0 +1,11 @@
+{
+  "name": "iStat Menus",
+  "description": "An advanced Mac system monitor for your menubar. CPU, GPU, memory, network, disk, sensors, battery — all at a glance.",
+  "price": "$11.99",
+  "url": "https://bjango.com/mac/istatmenus/",
+  "category": "utilities",
+  "tags": ["system-monitor", "menubar", "cpu", "performance"],
+  "platform": ["mac"],
+  "highlight": "Most detailed system monitor, lives in your menubar",
+  "addedAt": "2026-02-24"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Kaleidoscope",
+  "description": "The world's most powerful file comparison app. Compare text, images, and folders with beautiful, easy-to-read results.",
+  "price": "$69.99",
+  "url": "https://kaleidoscope.app",
+  "category": "developer-tools",
+  "tags": ["diff", "merge", "comparison", "code-review"],
+  "platform": ["mac"],
+  "highlight": "Gorgeous diff/merge tool, supports text, images, and folders",
+  "addedAt": "2026-02-24"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Proxyman",
+  "description": "Modern and intuitive HTTP debugging proxy for macOS, iOS, and Android. Capture, inspect, and manipulate network traffic.",
+  "price": "$49",
+  "url": "https://proxyman.io",
+  "category": "developer-tools",
+  "tags": ["http", "debugging", "proxy", "network"],
+  "platform": ["mac", "windows", "linux"],
+  "highlight": "Beautiful HTTP debugging, one-time license, Charles alternative",
+  "addedAt": "2026-02-24"
+}

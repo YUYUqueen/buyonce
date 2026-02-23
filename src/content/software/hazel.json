@@ -1,0 +1,11 @@
+{
+  "name": "Hazel",
+  "description": "Automated file organization for your Mac. Set rules to automatically sort, rename, tag, and clean up files and folders.",
+  "price": "$42",
+  "url": "https://www.noodlesoft.com",
+  "category": "utilities",
+  "tags": ["automation", "file-management", "organization", "rules"],
+  "platform": ["mac"],
+  "highlight": "Set-and-forget file automation, keeps your Mac tidy",
+  "addedAt": "2026-02-24"
+}

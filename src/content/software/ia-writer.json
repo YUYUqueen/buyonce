@@ -1,0 +1,11 @@
+{
+  "name": "iA Writer",
+  "description": "The focused writing app. Clean, distraction-free interface with Markdown support, content blocks, and style checking.",
+  "price": "$49.99",
+  "url": "https://ia.net/writer",
+  "category": "notes",
+  "tags": ["writing", "markdown", "distraction-free", "focus"],
+  "platform": ["mac", "windows", "ios", "android"],
+  "highlight": "Best-in-class distraction-free writing, one-time purchase",
+  "addedAt": "2026-02-24"
+}

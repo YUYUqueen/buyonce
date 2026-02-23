@@ -1,0 +1,11 @@
+{
+  "name": "ScreenFlow",
+  "description": "Powerful screen recording and video editing for macOS. Record your screen, edit with a timeline, add animations and callouts.",
+  "price": "$169",
+  "url": "https://www.telestream.net/screenflow/",
+  "category": "media",
+  "tags": ["screen-recording", "video-editing", "tutorial", "presentation"],
+  "platform": ["mac"],
+  "highlight": "Best Mac screen recorder + editor combo, one-time purchase",
+  "addedAt": "2026-02-24"
+}

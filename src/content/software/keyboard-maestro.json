@@ -1,0 +1,11 @@
+{
+  "name": "Keyboard Maestro",
+  "description": "The most powerful Mac automation tool. Automate virtually anything — applications, text, images, web sites, and more.",
+  "price": "$36",
+  "url": "https://www.keyboardmaestro.com",
+  "category": "productivity",
+  "tags": ["automation", "macros", "workflow", "scripting"],
+  "platform": ["mac"],
+  "highlight": "Deepest Mac automation tool, one-time purchase",
+  "addedAt": "2026-02-24"
+}

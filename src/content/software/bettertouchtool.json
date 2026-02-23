@@ -1,0 +1,11 @@
+{
+  "name": "BetterTouchTool",
+  "description": "Customize your Mac's input devices — trackpad gestures, keyboard shortcuts, Touch Bar widgets, window snapping, and more.",
+  "price": "$22",
+  "url": "https://folivora.ai",
+  "category": "productivity",
+  "tags": ["gestures", "trackpad", "window-management", "customization"],
+  "platform": ["mac"],
+  "highlight": "Ultimate input customization, window snapping included",
+  "addedAt": "2026-02-24"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Affinity Photo 2",
+  "description": "Professional photo editing software. A one-time purchase alternative to Adobe Photoshop with full RAW editing, retouching, and compositing.",
+  "price": "$69.99",
+  "url": "https://affinity.serif.com/photo/",
+  "category": "design",
+  "tags": ["photo-editing", "retouching", "raw", "adobe-alternative"],
+  "platform": ["mac", "windows", "ipad"],
+  "highlight": "Full Photoshop alternative, no subscription ever",
+  "addedAt": "2026-02-24"
+}

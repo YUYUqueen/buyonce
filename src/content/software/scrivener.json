@@ -1,0 +1,11 @@
+{
+  "name": "Scrivener 3",
+  "description": "The go-to app for writers of all kinds. Organize research, structure your manuscript, and write your masterpiece in one place.",
+  "price": "$49",
+  "url": "https://www.literatureandlatte.com/scrivener/overview",
+  "category": "notes",
+  "tags": ["writing", "manuscript", "research", "long-form"],
+  "platform": ["mac", "windows", "ios"],
+  "highlight": "The writer's tool for novels, screenplays, and research papers",
+  "addedAt": "2026-02-24"
+}

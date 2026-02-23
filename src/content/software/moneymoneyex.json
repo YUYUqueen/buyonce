@@ -1,0 +1,11 @@
+{
+  "name": "MoneyMoney",
+  "description": "Banking and financial management app for Mac. Connect to your bank, categorize transactions, and track your finances securely.",
+  "price": "€29.99",
+  "url": "https://moneymoney-app.com",
+  "category": "finance",
+  "tags": ["banking", "transactions", "budgeting", "mac-native"],
+  "platform": ["mac"],
+  "highlight": "Direct bank connection, automatic categorization, one-time purchase",
+  "addedAt": "2026-02-24"
+}

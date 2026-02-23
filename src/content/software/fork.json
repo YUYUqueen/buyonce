@@ -1,0 +1,11 @@
+{
+  "name": "Fork",
+  "description": "A fast and friendly Git client for Mac and Windows with an intuitive UI, interactive rebase, and image diffs.",
+  "price": "$49.99",
+  "url": "https://git-fork.com",
+  "category": "developer-tools",
+  "tags": ["git", "version-control", "gui", "diff"],
+  "platform": ["mac", "windows"],
+  "highlight": "Fast Git GUI, one-time purchase, free evaluation period",
+  "addedAt": "2026-02-24"
+}

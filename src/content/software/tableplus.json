@@ -1,0 +1,11 @@
+{
+  "name": "TablePlus",
+  "description": "Modern, native database management tool with an elegant UI. Supports MySQL, PostgreSQL, SQLite, Redis, and more.",
+  "price": "$89",
+  "url": "https://tableplus.com",
+  "category": "developer-tools",
+  "tags": ["database", "gui", "sql", "native"],
+  "platform": ["mac", "windows", "linux"],
+  "highlight": "One license for all databases, clean native UI",
+  "addedAt": "2026-02-24"
+}

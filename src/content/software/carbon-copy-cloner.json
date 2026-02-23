@@ -1,0 +1,11 @@
+{
+  "name": "Carbon Copy Cloner",
+  "description": "The first bootable backup solution for the Mac. Create reliable, bootable backups with smart updates and task scheduling.",
+  "price": "$49.99",
+  "url": "https://bombich.com",
+  "category": "utilities",
+  "tags": ["backup", "clone", "bootable", "scheduling"],
+  "platform": ["mac"],
+  "highlight": "Gold standard Mac backup tool, one-time purchase",
+  "addedAt": "2026-02-24"
+}

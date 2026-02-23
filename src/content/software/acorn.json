@@ -1,0 +1,11 @@
+{
+  "name": "Acorn 7",
+  "description": "The image editor for humans. Full-featured photo editor with layers, filters, curves, levels, and vector tools at a fraction of the price.",
+  "price": "$29.99",
+  "url": "https://flyingmeat.com/acorn/",
+  "category": "design",
+  "tags": ["image-editing", "photo", "layers", "affordable"],
+  "platform": ["mac"],
+  "highlight": "Affordable yet powerful image editor, one-time purchase",
+  "addedAt": "2026-02-24"
+}

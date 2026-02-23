@@ -1,0 +1,11 @@
+{
+  "name": "Wipr",
+  "description": "The lightest and fastest Safari content blocker. Blocks ads, trackers, cryptocurrency miners, and other annoyances.",
+  "price": "$1.99",
+  "url": "https://giorgiocalderolla.com/wipr.html",
+  "category": "security",
+  "tags": ["ad-blocker", "safari", "privacy", "lightweight"],
+  "platform": ["mac", "ios"],
+  "highlight": "Best Safari ad blocker, just $1.99, no configuration needed",
+  "addedAt": "2026-02-24"
+}

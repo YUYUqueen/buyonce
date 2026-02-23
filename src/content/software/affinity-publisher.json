@@ -1,0 +1,11 @@
+{
+  "name": "Affinity Publisher 2",
+  "description": "Professional desktop publishing software. Create beautiful layouts for magazines, books, brochures, posters, and more.",
+  "price": "$69.99",
+  "url": "https://affinity.serif.com/publisher/",
+  "category": "design",
+  "tags": ["publishing", "layout", "print", "adobe-alternative"],
+  "platform": ["mac", "windows", "ipad"],
+  "highlight": "InDesign alternative, completes the Affinity suite",
+  "addedAt": "2026-02-24"
+}

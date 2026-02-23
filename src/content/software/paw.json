@@ -1,0 +1,11 @@
+{
+  "name": "RapidAPI for Mac",
+  "description": "A full-featured HTTP client for testing and describing APIs. Beautiful native interface with code generation, environments, and team sync.",
+  "price": "$49.99",
+  "url": "https://paw.cloud",
+  "category": "developer-tools",
+  "tags": ["api", "http-client", "testing", "rest"],
+  "platform": ["mac"],
+  "highlight": "Native Mac API client, Postman alternative with one-time purchase",
+  "addedAt": "2026-02-24"
+}

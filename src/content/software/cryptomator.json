@@ -1,0 +1,11 @@
+{
+  "name": "Cryptomator",
+  "description": "Encrypt your cloud storage. Open-source, transparent encryption for Dropbox, Google Drive, OneDrive, and any other cloud.",
+  "price": "Free (desktop) / $11.99 (mobile)",
+  "url": "https://cryptomator.org",
+  "category": "security",
+  "tags": ["encryption", "cloud-storage", "privacy", "open-source"],
+  "platform": ["mac", "windows", "linux", "ios", "android"],
+  "highlight": "Open-source cloud encryption, no subscription needed",
+  "addedAt": "2026-02-24"
+}

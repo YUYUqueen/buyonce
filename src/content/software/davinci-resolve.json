@@ -1,0 +1,11 @@
+{
+  "name": "DaVinci Resolve",
+  "description": "Professional video editing, color correction, visual effects, and audio post-production — all in one tool. Free version is incredibly powerful.",
+  "price": "Free / $295 (Studio)",
+  "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+  "category": "media",
+  "tags": ["video-editing", "color-grading", "vfx", "professional"],
+  "platform": ["mac", "windows", "linux"],
+  "highlight": "Hollywood-grade video editing, free or one-time $295 for Studio",
+  "addedAt": "2026-02-24"
+}

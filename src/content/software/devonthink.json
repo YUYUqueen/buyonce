@@ -1,0 +1,11 @@
+{
+  "name": "DEVONthink 3",
+  "description": "Your paperless office. Store, organize, and search all your documents with AI-powered classification and smart groups.",
+  "price": "$99",
+  "url": "https://www.devontechnologies.com/apps/devonthink",
+  "category": "notes",
+  "tags": ["document-management", "ai", "search", "paperless"],
+  "platform": ["mac", "ios"],
+  "highlight": "AI-powered document management, local storage, one-time purchase",
+  "addedAt": "2026-02-24"
+}

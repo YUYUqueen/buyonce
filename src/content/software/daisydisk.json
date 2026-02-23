@@ -1,0 +1,11 @@
+{
+  "name": "DaisyDisk",
+  "description": "Visualize your disk space and free it up quickly. Beautiful sunburst map shows exactly what's eating your storage.",
+  "price": "$9.99",
+  "url": "https://daisydiskapp.com",
+  "category": "utilities",
+  "tags": ["disk-space", "cleanup", "visualization", "storage"],
+  "platform": ["mac"],
+  "highlight": "Beautiful disk space analyzer, Apple Design Award winner",
+  "addedAt": "2026-02-24"
+}

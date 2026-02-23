@@ -1,0 +1,11 @@
+{
+  "name": "Moneydance",
+  "description": "Personal finance manager that makes it easy to manage your budget, track investments, and monitor accounts — all without a subscription.",
+  "price": "$49.99",
+  "url": "https://moneydance.com",
+  "category": "finance",
+  "tags": ["budgeting", "accounting", "investment", "personal-finance"],
+  "platform": ["mac", "windows", "linux"],
+  "highlight": "Full-featured personal finance, one-time purchase, no cloud required",
+  "addedAt": "2026-02-24"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Permute 3",
+  "description": "The easiest media converter for Mac. Convert video, audio, and images with drag-and-drop simplicity and hardware acceleration.",
+  "price": "$14.99",
+  "url": "https://software.charliemonroe.net/permute/",
+  "category": "media",
+  "tags": ["converter", "video", "audio", "format"],
+  "platform": ["mac"],
+  "highlight": "Drop-dead simple media conversion, hardware accelerated",
+  "addedAt": "2026-02-24"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Moom",
+  "description": "Move and zoom windows with ease. Hover over the green button or use keyboard shortcuts to organize your workspace perfectly.",
+  "price": "$10",
+  "url": "https://manytricks.com/moom/",
+  "category": "productivity",
+  "tags": ["window-management", "layout", "organize", "lightweight"],
+  "platform": ["mac"],
+  "highlight": "Simple and effective window management for just $10",
+  "addedAt": "2026-02-24"
+}

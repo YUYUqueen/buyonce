@@ -1,0 +1,11 @@
+{
+  "name": "Nova",
+  "description": "A beautiful, fast, and flexible native code editor from Panic. Built exclusively for macOS with modern features.",
+  "price": "$99",
+  "url": "https://nova.app",
+  "category": "developer-tools",
+  "tags": ["editor", "code", "mac-native", "extensions"],
+  "platform": ["mac"],
+  "highlight": "Mac-native code editor from Panic, one-time purchase",
+  "addedAt": "2026-02-24"
+}

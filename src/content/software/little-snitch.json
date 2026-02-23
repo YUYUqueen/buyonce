@@ -1,0 +1,11 @@
+{
+  "name": "Little Snitch",
+  "description": "A host-based application firewall for macOS. See and control which apps connect to the internet, and where they send your data.",
+  "price": "$59",
+  "url": "https://www.obdev.at/products/littlesnitch/",
+  "category": "security",
+  "tags": ["firewall", "privacy", "network-monitor", "macos"],
+  "platform": ["mac"],
+  "highlight": "See every network connection, block unwanted traffic",
+  "addedAt": "2026-02-24"
+}

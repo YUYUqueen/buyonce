@@ -1,0 +1,11 @@
+{
+  "name": "Micro Snitch",
+  "description": "Know when your camera or microphone is in use. A tiny utility that shows an overlay whenever an app accesses your camera or mic.",
+  "price": "$14.99",
+  "url": "https://www.obdev.at/products/microsnitch/",
+  "category": "security",
+  "tags": ["privacy", "camera", "microphone", "monitor"],
+  "platform": ["mac"],
+  "highlight": "Instant alerts when any app uses your camera or mic",
+  "addedAt": "2026-02-24"
+}

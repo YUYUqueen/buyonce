@@ -1,0 +1,11 @@
+{
+  "name": "Alfred",
+  "description": "Award-winning productivity app for macOS. Boost your efficiency with hotkeys, keywords, text expansion, and powerful workflows.",
+  "price": "£34 (Powerpack)",
+  "url": "https://www.alfredapp.com",
+  "category": "productivity",
+  "tags": ["launcher", "automation", "workflows", "hotkeys"],
+  "platform": ["mac"],
+  "highlight": "The original Mac launcher, one-time Powerpack license",
+  "addedAt": "2026-02-24"
+}

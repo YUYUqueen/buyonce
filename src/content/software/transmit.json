@@ -1,0 +1,11 @@
+{
+  "name": "Transmit 5",
+  "description": "The gold standard of macOS file transfer apps. Upload, download, and manage files on tons of servers with an easy, familiar, and powerful UI.",
+  "price": "$45",
+  "url": "https://panic.com/transmit/",
+  "category": "developer-tools",
+  "tags": ["ftp", "sftp", "file-transfer", "cloud-storage"],
+  "platform": ["mac"],
+  "highlight": "Best-in-class file transfer, supports 15+ cloud services",
+  "addedAt": "2026-02-24"
+}

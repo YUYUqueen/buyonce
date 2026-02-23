@@ -1,0 +1,11 @@
+{
+  "name": "Downie",
+  "description": "The best video downloader for macOS. Save videos from YouTube, Vimeo, and thousands of other sites with a simple drag and drop.",
+  "price": "$19.99",
+  "url": "https://software.charliemonroe.net/downie/",
+  "category": "media",
+  "tags": ["video-download", "youtube", "media", "offline"],
+  "platform": ["mac"],
+  "highlight": "Download videos from 1000+ sites, simple drag and drop",
+  "addedAt": "2026-02-24"
+}

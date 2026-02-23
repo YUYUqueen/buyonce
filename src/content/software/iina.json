@@ -1,0 +1,11 @@
+{
+  "name": "IINA",
+  "description": "The modern media player for macOS. Built with Swift, supports virtually every media format, with a beautiful native interface.",
+  "price": "Free (open source)",
+  "url": "https://iina.io",
+  "category": "media",
+  "tags": ["video-player", "open-source", "mac-native", "swift"],
+  "platform": ["mac"],
+  "highlight": "Best Mac video player, free and open source, no ads ever",
+  "addedAt": "2026-02-24"
+}

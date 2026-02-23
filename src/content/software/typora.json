@@ -1,0 +1,11 @@
+{
+  "name": "Typora",
+  "description": "A minimal Markdown editor that gives you a seamless live preview experience. What you see is what you get.",
+  "price": "$14.99",
+  "url": "https://typora.io",
+  "category": "notes",
+  "tags": ["markdown", "editor", "minimal", "wysiwyg"],
+  "platform": ["mac", "windows", "linux"],
+  "highlight": "Seamless WYSIWYG Markdown editing for just $14.99",
+  "addedAt": "2026-02-24"
+}
